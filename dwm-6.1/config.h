@@ -2,9 +2,10 @@
 
 /* appearance */
 static const char *fonts[] = {
-	"monospace:size=10"
+    "FiraCode-Regular:pixelsize=16:antialias=true:autohint=false",
+    "SymbolsNerdFont-Regular:size=14"
 };
-static const char dmenufont[]       = "monospace:size=10";
+static const char dmenufont[]       = "FiraCode-Regular:pixelsize=16:antialias=true:autohint=false";
 static const char normbordercolor[] = "#444444";
 static const char normbgcolor[]     = "#222222";
 static const char normfgcolor[]     = "#bbbbbb";
@@ -62,7 +63,7 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
-#define MODKEY Mod1Mask
+#define MODKEY Mod4Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
