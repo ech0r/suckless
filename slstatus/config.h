@@ -69,7 +69,7 @@ static const struct arg args[] = {
     { wifi_perc,           " %s%% |","wlp5s0" }, 
     { netspeed_tx,           " 󰁝 %s ","wlp5s0" }, 
     { netspeed_rx,           "󰁅 %s |","wlp5s0" }, 
-    { ram_used,           " 󰍛 %s |",NULL }, 
+    { ram_perc,           " 󰍛 %s%% |",NULL }, 
     { battery_perc, " 󰁹 %s%% |","BAT0" }, 
 	{ datetime,        " %s ","%F  %T" },
 };
